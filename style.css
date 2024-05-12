@@ -1,0 +1,40 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: pink;
+    color: aqua;
+    padding: 20px;
+
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li a {
+    color: red;
+    text-decoration: double;
+
+}
+
+.section {
+    padding: 50px 20px;
+
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: white;
+    color: blueviolet;
+    text-align: center;
+    padding: 10px 0;
+}
