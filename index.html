@@ -2,48 +2,65 @@
 <html lang="en">
 
 <head>
-    <meta charset="'UTF-8">
-    <meta name="'viewport" content="width-device-width,initial-scale=1.0">
-    <link rel="stylesheet" href="E:\Internship\client\src\style.css" />
-    <link rel="App.js" href="E:\Internship\client\src\App.js" />
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Personal Portfolio Website Design | Codehal</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 
 <body>
-    <header>
-        <h1>My Portfolio</h1>
-        <nav>
-            <ul>
-                <li><a href="home">Home</a></li>
-                <li><a href="about">about</a></li>
-                <li><a href="projects">Project</a></li>
-                <li><a href="skills">Skills</a></li>
-                <li><a href="contact me">Contact me</a></li>
-            </ul>
+    <header class="header">
+        <a href="#" class="logo">MY Portfolio</a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#Project">Project</a>
+            <a href="#contact">Contact</a>
         </nav>
-
     </header>
-    <section id="home" class="section">
-        <h2>Welcome to My Portfolio</h2>
-        <p>Frontend Developer</p>
+    <!--home section design-->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Welcome to My Portfolio</h1>
+            <p>Hi, I'm G. Pavani, about creating user-friendly and visually appealing web applications.</p>
+            <h3>And I'm a <span>Frontend Developer</span></h3>
+            <!-- Add the image here -->
+            <img src="Components/about.png" alt="Picture of G. Pavani" style="width:200px;height:auto;">
+            <div class="social-media">
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="#"><i class='bx bxl-linkedin'></i></a>
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+            </div>
+            <a href="#" class="btn">Download CV</a>
+        </div>
     </section>
-    <section id="about" class="section">
-        <h2><a href="About Me">About me</a></h2>
-        <p>My name is G.Pavani and persuing B.tech third year in KLUniversity and I completed my SSC in Srichaitanya
-            School also completed my Inter in NarayanaCollege and my score is 901</p>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="Components/about.png" alt="">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Frontend Developer</h3>
+            <p>My name is G. Pavani and pursuing B.Tech third year in KLU University and I completed my SSC in
+                Srichaitanya School also completed my Inter in Narayana College and my score is 901.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
     </section>
-    <section id="projects" class="section">
-        <h2><a href="Project">Project</a></h2>
-        <div class="projects">
+
+    <section id="Project" class="Project">
+        <div class="heading">
             <h3>Weather App</h3>
             <p>Our project is based on developing a web application for weather forecasting. Weather forecast
                 application works on real-time scenarios where the past and present weather reports are considered to
                 depict the future weather scenarios. The users will have their account linked to the application so that
                 the suggestions of notifications can be more personalized.</p>
         </div>
-        <div class="projects">
-            <h3>AutoMobile Management System</h3>
+        <div class="heading">
+            <h3>Automobile Management System</h3>
             <p>The Automobile Management System (AMS) is a convenient online tool for simplified operations of
                 automobile dealerships and repair centers. From keeping track of available vehicles to handling customer
                 inquiries and service requests, AMS centralizes all tasks in one easy-to-use platform. Managers can
@@ -52,22 +69,22 @@
                 seamless, ensuring a better experience for both customers and staff.</p>
         </div>
     </section>
-    <section id="skills" class="section">
-        <h2><a href="Skills">Skills</a></h2>
-        <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-        </ul>
+
+    <section id="contact" class="section">
+        <h2 class="heading">Contact</h2>
+        <div class="heading p">
+            <p>Email: pavanipinky2004@gmail.com</p>
+            <p>Phone: 123-456-789</p>
+        </div>
     </section>
-    <section id="Contact" class="section">
-        <h2><a href="Contact me">Contact me</a></h2>
-        <p>Email:pavanipinky2004@gmail.com</p>
-        <p>Phone:123-456-789</p>
-        <p href="www.linkedin.com/in/gottumukkala-pavani-4a6149283">Linkedin</p>
-    </section>
-    <footer>
-        <p>&copy; 2024 My Portfolio</p>
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 by Codehal | All Rights Reserved</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
     </footer>
 </body>
 
